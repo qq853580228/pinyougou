@@ -1,0 +1,181 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+
+/* registerarea */
+
+.registerarea {
+    margin-top: 20px;
+    height: 580px;
+    border: 1px solid #ccc;
+}
+
+.registerarea h3 {
+    height: 40px;
+    background-color: #ececec;
+    line-height: 40px;
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.registerarea h3 em {
+    float: right;
+    right: 10px;
+    font-size: 14px;
+}
+
+.registerarea h3 a {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+
+.reg_form li {
+    margin-bottom: 15px;
+}
+
+.reg_form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: right;
+}
+
+.reg_form input[type="text"],
+.reg_form input[type="password"] {
+    width: 238px;
+    height: 34px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.reg_form span {
+    margin-left: 10px;
+}
+
+.send {
+    display: none;
+}
+
+.error {
+    color: #df3033;
+}
+
+.error_ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../uploads/error.png) no-repeat;
+    vertical-align: middle;
+    margin: -2px 2px 0 0;
+}
+
+.success {
+    margin-left: 10px;
+}
+
+.success_ico {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #40b83f;
+    vertical-align: middle;
+    margin: -2px 2px 0 0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.safe {
+    color: #b2b2b2;
+    padding-left: 187px;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+    height: 13px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #40b83f;
+}
+
+.qiang {
+    background-color: #f79100;
+}
+
+.agree {
+    padding: 20px 0 0 100px;
+}
+
+.agree input {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.over {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 30px 0 0 130px;
+}
+
+
+/* footer */
+
+.mod_copyright {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 118px;
+}
+
+.mod_copyright_links {
+    height: 31px;
+}
+
+.mod_copyright_links li {
+    float: left;
+    line-height: 31px;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}

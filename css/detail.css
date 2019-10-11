@@ -1,0 +1,463 @@
+/* 详情页css文件 */
+
+.de_container {
+    margin-top: 20px;
+}
+
+.crumb_warp {
+    height: 25px;
+}
+
+.crumb_warp a {
+    margin: 0 10px;
+}
+
+.preview_wrap {
+    width: 400px;
+    height: 590px;
+}
+
+.preview_img {
+    position: relative;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.mask {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    opacity: 0.4;
+    cursor: move;
+}
+
+.big {
+    position: absolute;
+    display: none;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ccc;
+    top: 0;
+    left: 410px;
+    z-index: 33;
+    overflow: hidden;
+}
+
+.big_img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+}
+
+.preview_list {
+    height: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.arrow_prew,
+.arrow_next {
+    position: absolute;
+    top: 15px;
+    width: 22px;
+    height: 32px;
+}
+
+.arrow_prew {
+    left: 0;
+    background: url(../uploads/disabled-prev.png) no-repeat;
+}
+
+.arrow_next {
+    right: 0;
+    background: url(../uploads/disabled-next.png) no-repeat;
+}
+
+.list_item {
+    width: 320px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.list_item li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    border: 2px solid transparent;
+    margin: 0 2px;
+}
+
+.list_item li:hover {
+    border: 2px solid #c81623;
+}
+
+.preview_ope {
+    position: relative;
+    height: 12px;
+    margin-top: 25px;
+}
+
+.preview_ope .preview_sp_l,
+.preview_ope .preview_sp_r {
+    position: absolute;
+}
+
+.preview_ope .preview_sp_l {
+    left: 0;
+}
+
+.preview_ope .preview_sp_r {
+    right: 3px;
+}
+
+.preview_sp_r i::before {
+    display: inline-block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border: 1px solid #ccc;
+}
+
+.ope_list_item {
+    position: absolute;
+    left: 40%;
+}
+
+.ope_list_item li {
+    float: left;
+    padding: 0 10px;
+}
+
+.itemInfo_wrap {
+    width: 718px;
+}
+
+.sku_name {
+    font-size: 16px;
+    font-weight: bold;
+    height: 32px;
+}
+
+.news {
+    color: #e12228;
+    height: 32px;
+}
+
+.summary dl {
+    overflow: hidden;
+}
+
+.summary_price,
+.summary_promotion {
+    padding: 10px 0;
+    background-color: #fee9eb;
+    position: relative;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 60px;
+    padding-left: 10px;
+    line-height: 36px;
+}
+
+.summary .price {
+    font-size: 24px;
+    color: #e12228;
+}
+
+.summary_price a {
+    color: #c81623;
+}
+
+.summary_price .remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.summary_promotion {
+    padding-top: 0;
+}
+
+.summary_promotion em {
+    display: inline-block;
+    width: 40px;
+    height: 22px;
+    background-color: #c81623;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+}
+
+.summary_promotion dd {
+    width: 450px;
+    line-height: 36px;
+}
+
+.summary_support dd {
+    line-height: 36px;
+}
+
+.summary_stock {
+    width: 548px;
+    border-bottom: 1px solid #ccc;
+}
+
+.summary_stock dd {
+    width: 433px;
+    line-height: 36px;
+}
+
+.summary_stock i {
+    font-family: "icomoon";
+}
+
+.summary_stock .icon-r {
+    display: inline-block;
+    margin-left: 68px;
+}
+
+.choose_color,
+.choose_version,
+.choose_volume,
+.buyway,
+.coordinates {
+    margin-top: 12px;
+}
+
+.choose_color a,
+.choose_version a,
+.choose_volume a,
+.buyway a,
+.coordinates a {
+    display: inline-block;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.choose_color a {
+    width: 80px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.choose_color a.current,
+.choose_version a.current,
+.choose_volume a.current,
+.buyway a.current {
+    border-color: #c81623;
+}
+
+.choose_version a {
+    width: 62px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.choose_volume a {
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.buyway a {
+    width: 82px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.coordinates a {
+    width: 74px;
+    height: 32px;
+    line-height: 32px;
+}
+
+.choose_btns {
+    margin-top: 20px;
+}
+
+.choose_amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+}
+
+.choose_btns .addcar {
+    float: left;
+    width: 142px;
+    height: 46px;
+    background-color: #c81623;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 46px;
+    margin-left: 10px;
+}
+
+.choose_amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.choose_btns .add,
+.choose_btns .reduce {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    right: 0;
+    line-height: 22px;
+    text-align: center;
+}
+
+.choose_btns .add {
+    top: 0;
+}
+
+.choose_btns .reduce {
+    bottom: 0;
+    cursor: not-allowed;
+}
+
+.product_detail {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+
+.tab_list {
+    height: 33px;
+}
+
+.tab_list .current {
+    border-bottom: 1px solid transparent;
+    background-color: #fff;
+    color: #cc353e;
+}
+
+.tab_list li {
+    float: left;
+    border-bottom: 1px solid #ccc;
+    background-color: #f1f1f1;
+    line-height: 33px;
+    text-align: center;
+}
+
+.first_tab {
+    width: 104px;
+}
+
+.second_tab {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+
+.tab_icon_list {
+    padding: 0 11px;
+}
+
+.tab_icon_list .list_items li {
+    float: left;
+    height: 27px;
+    width: 88px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 27px;
+    padding-left: 4px;
+}
+
+.list_items li:last-child {
+    width: 176px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list_items li:nth-last-child(2),
+.list_items li:nth-last-child(3) {
+    border-bottom: 0;
+}
+
+.tab_icon_list>li {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab_icon_list>li:last-child {
+    border-bottom: 0;
+}
+
+.tab_icon_list h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 10px 0;
+}
+
+.aside_price {
+    font-weight: bold;
+}
+
+.as_addcer {
+    display: block;
+    width: 88px;
+    height: 26px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    line-height: 26px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.detail {
+    width: 978px;
+}
+
+.detail_tab_list {
+    height: 39px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.detail_tab_list li {
+    float: left;
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.detail_tab_list .current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.item_info {
+    margin: 20px 0 0 20px;
+}
+
+.item_info li {
+    line-height: 22px;
+}
+
+.more {
+    float: right;
+    font-weight: 700;
+    font-family: "icomoon";
+}

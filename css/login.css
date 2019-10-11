@@ -1,0 +1,187 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 82px;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.loginarea {
+    background-color: #7e00ff;
+}
+
+.login {
+    position: relative;
+    height: 486px;
+    background: url(../images/loginbg.png) no-repeat;
+}
+
+.login_form {
+    position: absolute;
+    top: 87px;
+    right: 0px;
+    width: 379px;
+    height: 362px;
+    background-color: #fff;
+}
+
+.login_tab_list {
+    padding-left: 37px;
+    width: 303px;
+}
+
+.item_list {
+    width: 303px;
+    height: 20px;
+    margin-top: 22px;
+    overflow: hidden;
+    line-height: 20px;
+}
+
+.first_tab {
+    float: left;
+    padding-left: 10px;
+    width: 141px;
+    font-size: 18px;
+    border-right: 1px solid #ccc;
+}
+
+.second_tab {
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 18px;
+    width: 141px;
+}
+
+.item_list .current {
+    color: #d77277;
+}
+
+.recom {
+    width: 291px;
+    height: 24px;
+    border: 1px solid #f5eecf;
+    background-color: #fffdee;
+    padding-left: 10px;
+    line-height: 24px;
+    margin-top: 22px;
+}
+
+.username {
+    border: 1px solid #3aa2e4;
+    height: 34px;
+    margin-top: 10px;
+}
+
+.username span {
+    float: left;
+    width: 37px;
+    height: 34px;
+    background: url(../uploads/username.png) no-repeat;
+}
+
+.username input {
+    float: left;
+    width: 251px;
+    height: 34px;
+    padding-left: 10px;
+    color: #b3b3b3;
+    border: 0;
+}
+
+.password {
+    border: 1px solid #3aa2e4;
+    height: 34px;
+    margin-top: 17px;
+}
+
+.password span {
+    float: left;
+    width: 37px;
+    height: 34px;
+    background: url(../uploads/userpwd.png) no-repeat;
+}
+
+.password input {
+    float: left;
+    width: 251px;
+    height: 34px;
+    padding-left: 10px;
+    color: #b3b3b3;
+    border: 0;
+}
+
+.autologin {
+    margin-top: 20px;
+}
+
+.autologin input {
+    vertical-align: middle;
+}
+
+.autologin label {
+    color: #b3b3b3;
+}
+
+.autologin a {
+    float: right;
+}
+
+.login_in {
+    display: block;
+    margin-top: 20px;
+    width: 303px;
+    height: 41px;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+}
+
+.over {
+    margin-top: 20px;
+}
+
+.over a {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.over a span {
+    color: #1474af;
+}
+
+.over a:last-child {
+    margin-left: 11px;
+}
+
+
+/* footer */
+
+.mod_copyright {
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 118px;
+}
+
+.mod_copyright_links {
+    height: 31px;
+}
+
+.mod_copyright_links li {
+    float: left;
+    line-height: 31px;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
